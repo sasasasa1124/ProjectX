@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
-from .models import Post
-from .forms import PostForm, CommentForm
+from .models import Post, Comment, Reply
+from .forms import PostForm, CommentForm, ReplyForm
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 
@@ -63,3 +63,17 @@ def add_comment_to_post(request, pk):
     else:
         form = CommentForm()
     return render(request, 'blog/add_comment_to_post.html', {'form': form})
+
+
+def add_reply_to_comment(request, pk):
+    comment = get_object_or_404(Comment, pk=pk)
+    if request.method == "POST":
+        form = ReplyForm(request.POST)
+        if form.is_valid():
+            reply = form.save(commit=False)
+            reply.comment = comment
+            reply.save()
+            return redirect('post_detail', pk=comment.pk)
+    else:
+        form = ReplyForm()
+    return render(request, 'blog/add_reply_to_comment.html', {'form': form})

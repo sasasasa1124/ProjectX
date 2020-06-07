@@ -22,7 +22,17 @@
             <strong>{{ comment.author }}</strong>
             <p>{{ comment.text|linebreaks }}</p>
         </div>
+    <a class="btn btn-default" href="{% url 'add_reply_to_comment' pk=post.pk %}">reply</a>
+        {% for reply in post.comments.reply.all %}
+            <div class="reply">
+                <div class="date">{{ reply.created_date }}</div>
+                <strong>{{ reply.author }}</strong>
+                <p>{{ reply.text|linebreaks }}</p>
+            </div>
+        {% empty %}
+            <p>no replies</p>
+        {% endfor %}
     {% empty %}
-        <p>No comments(</p>
+        <p>No comments</p>
     {% endfor %}
 {% endblock %}

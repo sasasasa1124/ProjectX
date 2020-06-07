@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="612ec670-2514-47ae-b1d7-2c27b7698650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/add_comment_to_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ctiPP3R1J5mmugSgNqAiyv4JVQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -144,6 +121,10 @@
       <workItem from="1591363842683" duration="3610000" />
       <workItem from="1591407855667" duration="159000" />
       <workItem from="1591408021188" duration="3244000" />
+      <workItem from="1591427428650" duration="4000" />
+      <workItem from="1591450166287" duration="234000" />
+      <workItem from="1591451357250" duration="13000" />
+      <workItem from="1591487641775" duration="109000" />
     </task>
     <servers />
   </component>
@@ -172,29 +153,29 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="726" y="24" key="#manage/0.23.1440.808@0.23.1440.808" timestamp="1591358097915" />
-    <state width="758" height="176" key="GridCell.Tab.0.bottom" timestamp="1591411082350">
+    <state width="758" height="176" key="GridCell.Tab.0.bottom" timestamp="1591487749832">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="758" height="209" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591356083410" />
-    <state width="758" height="176" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1591411082350" />
+    <state width="758" height="176" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1591487749832" />
     <state width="668" height="209" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1591354975838" />
-    <state width="758" height="176" key="GridCell.Tab.0.center" timestamp="1591411082349">
+    <state width="758" height="176" key="GridCell.Tab.0.center" timestamp="1591487749831">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="758" height="209" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591356083409" />
-    <state width="758" height="176" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1591411082349" />
+    <state width="758" height="176" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1591487749831" />
     <state width="668" height="209" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1591354975837" />
-    <state width="758" height="176" key="GridCell.Tab.0.left" timestamp="1591411082348">
+    <state width="758" height="176" key="GridCell.Tab.0.left" timestamp="1591487749831">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="758" height="209" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591356083408" />
-    <state width="758" height="176" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1591411082348" />
+    <state width="758" height="176" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1591487749831" />
     <state width="668" height="209" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1591354975836" />
-    <state width="758" height="176" key="GridCell.Tab.0.right" timestamp="1591411082349">
+    <state width="758" height="176" key="GridCell.Tab.0.right" timestamp="1591487749831">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="758" height="209" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591356083409" />
-    <state width="758" height="176" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1591411082349" />
+    <state width="758" height="176" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1591487749831" />
     <state width="668" height="209" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1591354975837" />
     <state x="785" y="136" key="RollbackChangesDialog" timestamp="1591406888198">
       <screen x="0" y="23" width="1440" height="808" />
